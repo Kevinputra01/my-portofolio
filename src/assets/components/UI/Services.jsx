@@ -5,6 +5,9 @@ import html from "../../images/html.svg";
 import javascript from "../../images/javascript.svg";
 import react from "../../images/react.svg";
 import redux from "../../images/reduxIcon.png";
+import angular from "../../images/icons8-angular-50.png"
+import bootstrap from "../../images/icons8-bootstrap-50.png"
+import tailwind from "../../images/icons8-tailwind-css-24.png"
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
@@ -230,7 +233,7 @@ const Services = () => {
                         <h3 className="flex items-center text-[20px] ">
                           <img
                             className="h-[40px] w-[40px] items-center ml-14 mr-5"
-                            src={react}
+                            src={angular}
                           ></img>
                           Angular
                         </h3>
@@ -263,7 +266,7 @@ const Services = () => {
                         <h3 className="flex items-center text-[20px] group-hover:">
                           <img
                             className="h-[40px] w-[40px] items-center ml-14 mr-5"
-                            src={redux}
+                            src={bootstrap}
                           ></img>
                           Bootstrap
                         </h3>
@@ -296,7 +299,7 @@ const Services = () => {
                         <h3 className="flex items-center text-[20px] ">
                           <img
                             className="h-[40px] w-[40px] items-center ml-14 mr-5"
-                            src={react}
+                            src={tailwind}
                           ></img>
                           Tailwind
                         </h3>
